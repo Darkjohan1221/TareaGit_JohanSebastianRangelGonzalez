@@ -21,9 +21,14 @@ public class Tabla {
     public String tablaDeMultiplicar() {
         StringBuilder tabla = new StringBuilder();
         for (int i = 0; i <= 10; i++) {
-            int resultado = this.num*i;
-            tabla.append(this.num+"*"+i+"="+resultado+"\n");
+            int resultado = this.num * i;
+            tabla.append(this.num + "*" + i + "=" + resultado + "\n");
         }
         return tabla.toString();
     }
+
+    public int multiplicar(int num) {
+        return this.num * num;
+    }
+    
 }
