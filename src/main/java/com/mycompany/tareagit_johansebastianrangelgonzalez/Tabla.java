@@ -31,4 +31,5 @@ public class Tabla {
         return this.num * num;
     }
     
+    
 }
