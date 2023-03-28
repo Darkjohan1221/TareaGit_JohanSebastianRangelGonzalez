@@ -30,4 +30,5 @@ public class Tabla {
     public int multiplicar(int num) {
         return this.num * num;
     }
+    
 }
